@@ -63,7 +63,10 @@ int main() {
     MarkovChain chain;
 
     // Example usage
-    std::string inputText = "Die Technik ist ein Hund.";
+    std::string inputText = "Die Technik ist ein Hund."                                                             //
+                            "Das letzte Auto ist immer ein Kombi."                                                  //
+                            "Zuwider ist er nicht. Aber ein Ziegenbock ist auch nicht zuwider... Stinken tut er.";   // austrian quotes
+                            
     std::vector<std::string> words = splitIntoWords(inputText);
     chain.buildChain(words);
 
