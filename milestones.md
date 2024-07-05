@@ -1,9 +1,9 @@
 # Markov Chain Text Generator Project Plan
 
 ## Milestone 1: Project Setup and Data Structures
-- [y] Set up C++ project and version control (e.g., Git)
+- [X] Set up C++ project and version control (e.g., Git)
 - [ ] Implement basic data structures:
-  - [ ] Create a `MarkovChain` class
+  - [X] Create a `MarkovChain` class
   - [ ] Implement a map to store state transitions
 - [ ] Write functions to read and preprocess input text
 
